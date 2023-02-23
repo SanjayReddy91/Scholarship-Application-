@@ -1,0 +1,118 @@
+/* Set body margin and font family */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Set header styles */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Set scholarship section styles */
+.scholarships {
+  margin: 50px 0;
+}
+
+.scholarships h2 {
+  text-align: center;
+}
+
+.scholarships ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.scholarships li {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.scholarships li h3 {
+  margin-top: 0;
+}
+
+.scholarships li p {
+  margin: 20px 0;
+}
+
+.scholarships li button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Set application form styles */
+.application-form {
+  margin: 50px 0;
+}
+
+.application-form h2 {
+  text-align: center;
+}
+
+.application-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.application-form label {
+  margin: 20px 0 10px;
+}
+
+.application-form input, .application-form textarea, .application-form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.application-form button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
